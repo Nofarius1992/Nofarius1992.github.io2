@@ -8,12 +8,19 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    color: $color-text;
+    color: $color-black;
 }
 
 .container {
     width: 1140px;
     margin: 0 auto;
+}
+
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: $color-main;
+    margin: 15px auto 0 auto;
 }
 
 @import "blocks/promo";
@@ -22,3 +29,4 @@
 @import "blocks/sidepanel";
 @import "blocks/menu";
 @import "blocks/about_me";
+@import "blocks/resume";

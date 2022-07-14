@@ -1,8 +1,8 @@
 .about {
-  margin-top: 120px;
+  padding-top: 120px;
   &__grid {
     display: grid;
-    grid-template-columns: 400px 570px;
+    grid-template-columns: 400px 670px;
     grid-template-rows: auto 1fr;
     gap: 40px 70px;
     grid-template-areas:
@@ -17,17 +17,15 @@
   }
   &__info {
     grid-area: info;
+    .divider {
+      margin: 0;
+    }
   }
   &__subtitle {
     position: relative;
     padding-left: 10px;
     margin-top: 5px;
     @include before_circle;
-  }
-  &__line {
-    width: 60px;
-    height: 3px;
-    background-color: $color-main;
   }
   &__desc {
     margin-top: 20px;
