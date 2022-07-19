@@ -3,11 +3,14 @@
   position: relative;
   background: url("../img/main_bg.jpeg") no-repeat 0 0/cover;
   padding-top: 220px;
+  &__wrapper-flex {
+    display: flex;
+    justify-content: end;
+  }
   &__wrapper {
-    margin-left: 840px;
+    width: 405px;
   }
   &__title {
-    width: 405px;
     margin-top: 10px;
   }
   &__subtitle {

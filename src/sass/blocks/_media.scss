@@ -1,0 +1,269 @@
+@media (max-width: 2000px) {
+  .promo {
+    .container {
+      width: 100%;
+    }
+    &__wrapper-flex {
+      margin-right: 30px;
+    }
+  }
+}
+
+@media (max-width: 1335px) {
+  .sidepanel {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .sidepanel {
+    display: none;
+  }
+
+  .promo {
+    .container {
+      width: 100%;
+    }
+    &__wrapper {
+      width: 286px;
+    }
+    &__title {
+      font-size: 27px;
+      line-height: 40px;
+    }
+  }
+
+  .about {
+    &__grid {
+      grid-template-columns: 400px 520px;
+      column-gap: 30px;
+    }
+    &__skills {
+      column-gap: 20px;
+    }
+  }
+
+  .resume {
+    padding-top: 100px;
+    &__grid {
+      padding: 60px 30px 0 30px;
+      grid-template-columns: repeat(2,380px);
+      column-gap: 100px;
+    }
+  }
+
+  .skills {
+    &__languages {
+      grid-template-columns: repeat(3, 270px);
+    }
+    &__percent {
+      padding-top: 50px;
+      grid-template-columns: repeat(2,350px);
+      justify-content: space-evenly;
+    }
+  }
+}
+
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .title_fz36 {
+    font-size: 30px;
+  }
+
+  .promo {
+    .container {
+      max-width: 100%;
+    }
+  }
+
+  .about {
+    padding-top: 80px;
+    &__grid {
+      grid-template-columns: 300px 380px;
+      column-gap: 40px;
+      row-gap: 10px;
+    }
+    &__skills {
+      column-gap: 20px;
+      grid-template-columns: 380px;
+      grid-auto-rows: minmax(115px, auto);
+    }
+    &__item {
+      width: 380px;
+    }
+  }
+
+  .resume {
+    padding-top: 60px;
+    &__grid {
+      padding: 40px 30px 0 30px;
+      grid-template-columns: repeat(2,300px);
+      column-gap: 60px;
+    }
+  }
+
+  .skills {
+    &__languages {
+      grid-template-columns: repeat(2, 270px);
+    }
+
+    &__percent {
+      grid-template-columns: repeat(2, 330px);
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+
+  .promo {
+    padding-top: 300px;
+    .container {
+      width: 100%;
+    }
+    &__wrapper {
+      width: 205px;
+    }
+    &__title {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    &__subtitle {
+      font-size: 12px;
+      &:before {
+        width: 25px;
+        height: 25px;
+        top: -5%;
+      }
+    }
+    .btn {
+      height: 30px;
+      padding: 5px 10px;
+    }
+    &__link {
+      font-size: 9px;
+    }
+  }
+
+  .about {
+    padding-top: 40px;
+    &__grid {
+      grid-template: 340px auto auto / 1fr;
+    }
+    &__photo {
+      grid-row: unset;
+      grid-column: unset;
+    }
+    &__info {
+      grid-row: unset;
+      grid-column: unset;
+    }
+    &__skills {
+      grid-template-columns: repeat(2, 260px);
+      grid-row: unset;
+      grid-column: unset;
+    }
+    &__item {
+      width: 260px;
+    }
+  }
+
+  .resume {
+    padding-top: 60px;
+    &__grid {
+      padding: 0 30px 0 30px;
+      grid-template-columns: 420px;
+      column-gap: 60px;
+    }
+    &__column {
+      padding-top: 30px;
+    }
+  }
+
+  .skills {
+    &__languages {
+      grid-template-columns: repeat(2, 270px);
+    }
+    &__percent {
+      grid-template-columns: 420px;
+      row-gap: 40px;
+    }
+  }
+}
+
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .title_fz36 {
+    font-size: 24px;
+  }
+  .menu {
+    &__block {
+      padding-top: 100px;
+      width: 250px;
+    }
+    &__list {
+      padding-left: 20px;
+    }
+    &__social {
+      bottom: 20px;
+    }
+  }
+  .promo {
+    padding-top: 225px;
+    &__wrapper-flex {
+      justify-content: start;
+    }
+  }
+
+  .about {
+    &__grid {
+      grid-template: 340px auto auto / 1fr;
+    }
+    &__skills {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .resume {
+    padding-top: 60px;
+    &__grid {
+      padding: 0 10px;
+      grid-template-columns: 290px;
+    }
+  }
+
+  .skills {
+    &__languages {
+      grid-template-columns: repeat(1, 270px);
+    }
+    &__percent {
+      grid-template-columns: 300px;
+    }
+  }
+}
+
+@media (max-height: 510px) {
+  .menu {
+    &__block {
+      padding-top: 100px;
+    }
+
+    &__social {
+      bottom: 20px;
+    }
+  }
+}
