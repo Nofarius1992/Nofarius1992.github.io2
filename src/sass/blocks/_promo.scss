@@ -34,8 +34,18 @@
       text-decoration: none;
       color: #000;
     }
-    &:last-child {
+    &_bg {
+      transition: all 0.3s;
+      &:hover {
+        background: $color-text;
+      }
+    }
+    &_nobg {
+      transition: all 0.3s;
       color: $color-text;
+      &:hover {
+        color: $color-main;
+      }
     }
   }
 }

@@ -9,11 +9,17 @@
   height: 21px;
   width: 36px;
   cursor: pointer;
+  &:hover {
+    span {
+      background: $color-main;
+    }
+  }
   span {
     display: block;
     width: 30px;
     height: 3px;
     background: $color-text;
+    transition: all 0.3s;
   }
   span.long {
     width: 36px;
